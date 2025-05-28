@@ -19,13 +19,13 @@ Port: 5173
 
 ## Backend Endpoints
 
-Get All Customers: GET /api/customer
-Get CustomerByNic: GET /api/customer/:nic
-Create Cusntomer: POST /api/customer
-Update Customer: PUT /api/customer/:nic
-Bulk upload: POST /api/customer/upload
-Get All Cities: GET api/city
-Get All Countries: GET api/country
+- Get All Customers: GET /api/customer
+- Get CustomerByNic: GET /api/customer/:nic
+- Create Cusntomer: POST /api/customer
+- Update Customer: PUT /api/customer/:nic
+- Bulk upload: POST /api/customer/upload
+- Get All Cities: GET api/city
+- Get All Countries: GET api/country
 
 ### Customer Creation/Update Sample JSON
 
@@ -49,7 +49,7 @@ Get All Countries: GET api/country
 
 ```
 
-Backend Port: 8080
-DB Name: test_db
+- Backend Port: 8080
+- DB Name: test_db
 
-Note: Data Source JDBC url is configured to port 3307 in this configuration (edit application.properties)
+- Note: Data Source JDBC url is configured to port 3307 in this configuration (edit application.properties)
