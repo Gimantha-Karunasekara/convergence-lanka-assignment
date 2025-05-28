@@ -21,7 +21,7 @@ Port: 5173
 
 - Get All Customers: GET /api/customer
 - Get CustomerByNic: GET /api/customer/:nic
-- Create Cusntomer: POST /api/customer
+- Create Customer: POST /api/customer
 - Update Customer: PUT /api/customer/:nic
 - Bulk upload: POST /api/customer/upload
 - Get All Cities: GET api/city
